@@ -14,7 +14,7 @@ apt install httrack <br />
 ## Usage 
 
 mkdir webclone <br /> 
-cd webclone <br /> <br />
+cd webclone <br />
 
 httrack https://defensiveorigins.com/login <br /><br />
 
