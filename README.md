@@ -1,22 +1,22 @@
 # cookieThievery
 
-# Quick and dirty cookie stealer
+## Quick and dirty cookie stealer
 
-# Pre-Req's:
-# ubuntu / python3 supporting box / whatever
+## Pre-Req's:
+### ubuntu / python3 supporting box / whatever
 
-apt install python3-pip
-python3 -m pip install flask
+apt install python3-pip <br / >
+python3 -m pip install flask <br />
 
-# I like to use httrack to clone a website.
-apt install httrack
+## I like to use httrack to clone a website.
+apt install httrack <br />
 
-# Usage 
+## Usage 
 
-mkdir webclone
-cd webclone
+mkdir webclone <br /> 
+cd webclone <br /> <br />
 
-httrack https://defensiveorigins.com/login 
+httrack https://defensiveorigins.com/login <br /><br />
 
-python3 -m http.server 8088
+python3 -m http.server 8088 <br /><br />
 
